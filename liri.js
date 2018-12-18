@@ -50,7 +50,7 @@ function spotifySearch() {
   });
 }
 
-var Bands = require("node-spotify-api");
+var Bands = require("node-bandsintown-api");
 var userCommand2 = process.argv[3];
 var secondCommand2 = new Bands(keys.bandsintown);
 
